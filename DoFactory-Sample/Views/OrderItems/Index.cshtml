@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<DoFactory_Sample.Models.OrderItem>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Latest Order Items";
 }
 
-<h2>Index</h2>
+    <h2>Most Recent 20 Order Items</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", "OrderItems")
 </p>
 <table class="table">
     <tr>

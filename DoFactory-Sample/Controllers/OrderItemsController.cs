@@ -17,7 +17,10 @@ namespace DoFactory_Sample.Controllers
         // GET: OrderItems
         public ActionResult Index()
         {
-            var orderItems = db.OrderItems.Include(o => o.Order).Include(o => o.Product);
+            IQueryable<OrderItem> orderItems =
+                    db.OrderItems.Include(o => o.Order).Include(o => o.Product).
+                    OrderByDescending(o => o.Id).Take(20);
+
             return View(orderItems.ToList());
         }
 
