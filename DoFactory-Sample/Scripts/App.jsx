@@ -1,11 +1,41 @@
-﻿// From a reactjs.net tutorial, 
-// [Your first component](https://reactjs.net/tutorials/aspnet4.html#your-first-component)
-class CommentBox extends React.Component {
+﻿// Copied from http://jsbin.com/mipesawapi/edit?html,js,output,
+// found as a link at https://github.com/reactjs/react-autocomplete
+class MyInput extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            value: ''
+        };
+    }
+
     render() {
         return (
-            <div className="commentBox">Hello, world! I am a CommentBox.</div>
+            <ReactAutocomplete
+                items={[
+                    { id: 'foo', label: 'foo' },
+                    { id: 'bar', label: 'bar' },
+                    { id: 'baz', label: 'baz' },
+                    { id: 'lemon', label: 'lemon' },
+                    { id: 'lime', label: 'lime' },
+                ]}
+                shouldItemRender={(item, value) => item.label.toLowerCase().indexOf(value.toLowerCase()) > -1}
+                getItemValue={item => item.label}
+                renderItem={(item, highlighted) =>
+                    <div
+                        key={item.id}
+                        style={{ backgroundColor: highlighted ? '#eee' : 'transparent' }}
+                    >
+                        {item.label}
+                    </div>
+                }
+                value={this.state.value}
+                onChange={e => this.setState({ value: e.target.value })}
+                onSelect={value => this.setState({ value })}
+            />
         );
     }
 }
 
-ReactDOM.render(<CommentBox />, document.getElementById('content'));
+ReactDOM.render(<MyInput />, document.getElementById('autoCompleteField'));
+

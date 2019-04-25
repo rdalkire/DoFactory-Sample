@@ -17,3 +17,4 @@ I'm using VS Studio 2019, though this will almost certainly work in previous ver
    6. Run the script (and check that it worked, of course)
    7. Do the same steps for `...sample-data.sql`
 2. Launch - If website appears without any error messages, the initial run was a success
+3. In the default "Most Recent 20..." view, use Create New to bring up the form for creating a new Order Item.  To the right of the "HelloWorld AutoComplete" label, there should be a working (though dumb) autocomplete field with some items to select from. 

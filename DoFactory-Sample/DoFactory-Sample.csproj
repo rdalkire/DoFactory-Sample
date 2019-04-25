@@ -220,6 +220,36 @@
       <DependentUpon>DofactorySampleModel.edmx</DependentUpon>
       <LastGenOutput>DofactorySampleModel.cs</LastGenOutput>
     </Content>
+    <Content Include="node_modules\dom-scroll-into-view\examples\t.js" />
+    <Content Include="node_modules\dom-scroll-into-view\index.js" />
+    <Content Include="node_modules\dom-scroll-into-view\lib\dom-scroll-into-view.js" />
+    <Content Include="node_modules\dom-scroll-into-view\lib\util.js" />
+    <Content Include="node_modules\dom-scroll-into-view\tests\index.spec.js" />
+    <Content Include="node_modules\dom-scroll-into-view\tests\runner.html" />
+    <Content Include="node_modules\js-tokens\index.js" />
+    <Content Include="node_modules\loose-envify\cli.js" />
+    <Content Include="node_modules\loose-envify\custom.js" />
+    <Content Include="node_modules\loose-envify\index.js" />
+    <Content Include="node_modules\loose-envify\loose-envify.js" />
+    <Content Include="node_modules\loose-envify\replace.js" />
+    <Content Include="node_modules\object-assign\index.js" />
+    <Content Include="node_modules\prop-types\checkPropTypes.js" />
+    <Content Include="node_modules\prop-types\factory.js" />
+    <Content Include="node_modules\prop-types\factoryWithThrowingShims.js" />
+    <Content Include="node_modules\prop-types\factoryWithTypeCheckers.js" />
+    <Content Include="node_modules\prop-types\index.js" />
+    <Content Include="node_modules\prop-types\lib\ReactPropTypesSecret.js" />
+    <Content Include="node_modules\prop-types\prop-types.js" />
+    <Content Include="node_modules\prop-types\prop-types.min.js" />
+    <Content Include="node_modules\react-autocomplete\build\lib\Autocomplete.js" />
+    <Content Include="node_modules\react-autocomplete\build\lib\index.js" />
+    <Content Include="node_modules\react-autocomplete\dist\react-autocomplete.js" />
+    <Content Include="node_modules\react-autocomplete\dist\react-autocomplete.min.js" />
+    <Content Include="node_modules\react-is\cjs\react-is.development.js" />
+    <Content Include="node_modules\react-is\cjs\react-is.production.min.js" />
+    <Content Include="node_modules\react-is\index.js" />
+    <Content Include="node_modules\react-is\umd\react-is.development.js" />
+    <Content Include="node_modules\react-is\umd\react-is.production.min.js" />
     <Content Include="Scripts\App.jsx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -230,7 +260,42 @@
     <Content Include="Models\DofactorySampleModel.edmx.diagram">
       <DependentUpon>DofactorySampleModel.edmx</DependentUpon>
     </Content>
-    <Content Include="libman.json" />
+    <Content Include="package.json" />
+    <Content Include="node_modules\dom-scroll-into-view\.editorconfig" />
+    <Content Include="node_modules\dom-scroll-into-view\.jscsrc" />
+    <Content Include="node_modules\dom-scroll-into-view\.jshintrc" />
+    <Content Include="node_modules\dom-scroll-into-view\.npmignore" />
+    <Content Include="node_modules\dom-scroll-into-view\.spmignore" />
+    <Content Include="node_modules\dom-scroll-into-view\.travis.yml" />
+    <Content Include="node_modules\dom-scroll-into-view\assets\index.less" />
+    <Content Include="node_modules\dom-scroll-into-view\examples\index.md" />
+    <Content Include="node_modules\dom-scroll-into-view\HISTORY.md" />
+    <Content Include="node_modules\dom-scroll-into-view\package.json" />
+    <Content Include="node_modules\dom-scroll-into-view\README.md" />
+    <Content Include="node_modules\js-tokens\CHANGELOG.md" />
+    <Content Include="node_modules\js-tokens\LICENSE" />
+    <Content Include="node_modules\js-tokens\package.json" />
+    <Content Include="node_modules\js-tokens\README.md" />
+    <Content Include="node_modules\loose-envify\LICENSE" />
+    <Content Include="node_modules\loose-envify\package.json" />
+    <Content Include="node_modules\loose-envify\README.md" />
+    <Content Include="node_modules\object-assign\license" />
+    <Content Include="node_modules\object-assign\package.json" />
+    <Content Include="node_modules\object-assign\readme.md" />
+    <Content Include="node_modules\prop-types\CHANGELOG.md" />
+    <Content Include="node_modules\prop-types\LICENSE" />
+    <Content Include="node_modules\prop-types\package.json" />
+    <Content Include="node_modules\prop-types\README.md" />
+    <Content Include="node_modules\react-autocomplete\CHANGELOG.md" />
+    <Content Include="node_modules\react-autocomplete\dist\react-autocomplete.js.map" />
+    <Content Include="node_modules\react-autocomplete\dist\react-autocomplete.min.js.map" />
+    <Content Include="node_modules\react-autocomplete\LICENSE" />
+    <Content Include="node_modules\react-autocomplete\package.json" />
+    <Content Include="node_modules\react-autocomplete\README.md" />
+    <Content Include="node_modules\react-is\build-info.json" />
+    <Content Include="node_modules\react-is\LICENSE" />
+    <Content Include="node_modules\react-is\package.json" />
+    <Content Include="node_modules\react-is\README.md" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -242,10 +307,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Scripts\react-autocomplete\build\lib\Autocomplete.js" />
-    <Content Include="Scripts\react-autocomplete\build\lib\index.js" />
-    <Content Include="Scripts\react-autocomplete\dist\react-autocomplete.js" />
-    <Content Include="Scripts\react-autocomplete\dist\react-autocomplete.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -284,12 +345,6 @@
     <Content Include="Views\Orders\Details.cshtml" />
     <Content Include="Views\Orders\Edit.cshtml" />
     <Content Include="Views\Orders\Index.cshtml" />
-    <Content Include="Scripts\react-autocomplete\CHANGELOG.md" />
-    <Content Include="Scripts\react-autocomplete\dist\react-autocomplete.js.map" />
-    <Content Include="Scripts\react-autocomplete\dist\react-autocomplete.min.js.map" />
-    <Content Include="Scripts\react-autocomplete\LICENSE" />
-    <Content Include="Scripts\react-autocomplete\package.json" />
-    <Content Include="Scripts\react-autocomplete\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
