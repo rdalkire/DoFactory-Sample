@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory_CoreSample", "DoFactory_Sample\DoFactory_CoreSample.csproj", "{540A51B7-1E87-4C35-A103-EEF40A7BBCFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoFactory_CoreSample", "DoFactory_CoreSample\DoFactory_CoreSample.csproj", "{540A51B7-1E87-4C35-A103-EEF40A7BBCFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
