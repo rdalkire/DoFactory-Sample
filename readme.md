@@ -18,3 +18,9 @@ I'm using VS Studio 2019, though this will almost certainly work in previous ver
    7. Do the same steps for `...sample-data.sql`
 2. Launch - If website appears without any error messages, the initial run was a success
 3. In the default "Most Recent 20..." view, use Create New to bring up the form for creating a new Order Item.  To the right of the "HelloWorld AutoComplete" label, there should be a working (though dumb) autocomplete field with some items to select from. 
+
+## Other Tooling
+
+Extension [ErikEJ/EFCorePowerTools](https://github.com/ErikEJ/EFCorePowerTools/wiki)
+
+At the time of this edit (4/28/2019, ~1730 EDT), the EF-Core-Power-Tools that one presently gets from VS Marketplace, version 2.2.12, does not work with VS 2019, at least not for generating the diagram.  Instead use version 2.2.59 (or above I assume) from [Open VSIX gallery](http://vsixgallery.com/extension/f4c4712c-ceae-4803-8e52-0e2049d5de9f/); the [VSIX Gallery - nightly builds](https://github.com/madskristensen/VsixGalleryExtension) is itself available as an extention. Then grab DGML Editor from the VS installer.  This was more effort than I expected.
