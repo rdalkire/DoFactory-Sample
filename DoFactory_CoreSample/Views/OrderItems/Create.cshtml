@@ -14,12 +14,19 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="OrderId" class="control-label"></label>
-                <select asp-for="OrderId" class ="form-control" asp-items="ViewBag.OrderId"></select>
+                <select asp-for="OrderId" class="form-control" asp-items="ViewBag.OrderId"></select>
             </div>
             <div class="form-group">
                 <label asp-for="ProductId" class="control-label"></label>
-                <select asp-for="ProductId" class ="form-control" asp-items="ViewBag.ProductId"></select>
+                <select asp-for="ProductId" class="form-control" asp-items="ViewBag.ProductId"></select>
             </div>
+
+            <div id="content" class="form-group"></div>
+            <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.0/umd/react.development.js"></script>
+            <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.0/umd/react-dom.development.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+            <script src="@Url.Content("~/js/orderItems.jsx")"></script>
+
             <div class="form-group">
                 <label asp-for="UnitPrice" class="control-label"></label>
                 <input asp-for="UnitPrice" class="form-control" />

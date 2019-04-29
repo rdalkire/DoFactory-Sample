@@ -18,10 +18,13 @@ namespace DoFactory_CoreSample.Controllers
             _context = context;
         }
 
-        // GET: Orders
+        // GET: Most recent 20 Orders
         public async Task<IActionResult> Index()
         {
-            var dofactory_sampleContext = _context.Order.Include(o => o.Customer);
+            var dofactory_sampleContext = _context.Order.
+                    Include(o => o.Customer).
+                    OrderByDescending( o => o.OrderNumber ).Take(20);
+
             return View(await dofactory_sampleContext.ToListAsync());
         }
 
