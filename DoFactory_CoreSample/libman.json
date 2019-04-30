@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "react-autocomplete@1.8.1",
+      "destination": "wwwroot/lib/react-autocomplete/"
+    }
+  ]
+}

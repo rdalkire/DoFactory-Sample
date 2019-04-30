@@ -6,7 +6,7 @@ My plan (as of this writing) is to create a kind of grid-dropdown using [react-a
 
 ## Initial Run
 
-I'm using VS Studio 2019, though this will almost certainly work in previous versions as well.
+I'm using Visual Studio 2019, though I think this would almost certainly work in VS 2017 as well.
 
 1. Create and populate the database:
    1. Open the SQL Server Object Explorer
@@ -23,7 +23,10 @@ I'm using VS Studio 2019, though this will almost certainly work in previous ver
 
 Extension [ErikEJ/EFCorePowerTools](https://github.com/ErikEJ/EFCorePowerTools/wiki)
 
-At the time of this edit (4/28/2019, ~1730 EDT), the EF-Core-Power-Tools that one presently gets from VS Marketplace, version 2.2.12, does not work with VS 2019, at least not for generating the diagram.  Instead use version 2.2.59 (or above I assume) from [Open VSIX gallery](http://vsixgallery.com/extension/f4c4712c-ceae-4803-8e52-0e2049d5de9f/); the [VSIX Gallery - nightly builds](https://github.com/madskristensen/VsixGalleryExtension) is itself available as an extention. Then grab DGML Editor from the VS installer.  This was more effort than I expected.
+At the time of this edit (4/28/2019, ~1730 EDT), the EF-Core-Power-Tools that one presently gets from VS Marketplace, version 2.2.12, does not work with VS 2019, at least not for generating the diagram.  
+- Instead use version 2.2.59 (or above I assume) from [Open VSIX gallery](http://vsixgallery.com/extension/f4c4712c-ceae-4803-8e52-0e2049d5de9f/); 
+- The [VSIX Gallery - nightly builds](https://github.com/madskristensen/VsixGalleryExtension) is itself available as an extention. 
+- Then to view the diagram (as presented in the following section, Entities) you need to grab DGML Editor from the VS installer.
 
 ## Entities
 
